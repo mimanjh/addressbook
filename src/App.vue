@@ -49,7 +49,7 @@ export default {
          }
       },
       addContact(contact) {
-         const { id, name, address, phone_num, email, category } = contact;
+         const { id, name, address, phone_num, email } = contact;
          axios
             .post("http://localhost:3000/address", {
                id,
